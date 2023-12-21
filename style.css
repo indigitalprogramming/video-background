@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    position: relative;
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.text-container {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-container h1 {
+    font-variant: small-caps;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}
+
+.text-container p {
+    width: fit-content;
+    margin: auto;
+    background-color: #c1c1c17c;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
